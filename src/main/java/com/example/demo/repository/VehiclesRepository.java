@@ -1,5 +1,6 @@
 package com.example.demo.repository;
 
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.demo.entity.Vehicles;
@@ -7,5 +8,7 @@ import com.example.demo.entity.Vehicles;
 
 
 public interface VehiclesRepository extends JpaRepository<Vehicles, Long>{
+
+	 
 
 }
